@@ -1,60 +1,77 @@
 <!DOCTYPE html>
-<!--Lukas Vaignis EKf-23-->
 <html>
 <head>
-    
+    <!--Lukas Vaignis EKf-23-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>About</h1>
     <p>"He who laughs at himself never runs out of things to laugh at."-Marcus Aurelius</p>
-    <img src="Pictures/avatars-V3UaHGNGRFuSTiJp-NCAt5g-t1080x1080.jpg" width="500" height="500">
-    <h1>Computer engineer</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <ul>
-        <li><b>Birthday: </b>1234-12-12</li>
-        <li><b>Website: </b>www.example.com</li>
-        <li><b>Phone: </b>+123 456 7890</li>
-        <li><b>City: </b>Mars</li>
-    </ul>
-    <ul>
-        <li><b>Age: </b>+999</li>
-        <li><b>Degree: </b>www.example.com</li>
-        <li><b>Email: </b>email@example.com</li>
-        <li><b>Freelance: </b>Unknown</li>
-    </ul>
-    <p>Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque.</p>
+    <div class="row">
+        <img src="Pictures/avatars-V3UaHGNGRFuSTiJp-NCAt5g-t1080x1080.jpg">
+        <div>
+            <h2>Computer engineer</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="row">
+                <ul class="column">
+                    <li><b>Birthday: </b>1234-12-12</li>
+                    <li><b>Website: </b>www.example.com</li>
+                    <li><b>Phone: </b>+123 456 7890</li>
+                    <li><b>City: </b>Mars</li>
+                </ul>
+                <ul class="column">
+                    <li><b>Age: </b>+999</li>
+                    <li><b>Degree: </b>www.example.com</li>
+                    <li><b>Email: </b>email@example.com</li>
+                    <li><b>Freelance: </b>Unknown</li>
+                </ul>
+            </div>
+            <p>Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque.</p>
+        </div>
+    </div>
     <h1>Resume</h1>
     <p>"He who laughs at himself never runs out of things to laugh at."-Marcus Aurelius</p>
-    <h1>Sumary</h1>
-    <h2 style="color: gray;">Lukas Vaiginis</h2>
-    <p>Computer engineer with experience in modeling, programming and designing.</p>
-    <li>Some address</li>
-    <li>(123) 456-7891</li>
-    <li>email@example.com</li>
-    <h1>Education</h1>
-    <h2 style="color: gray;">Bachelor of Computer engineering</h2>
-    <b>2023-2027</b>
-    <p>Vilnius tech</p>
-    <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
-    <h1>Professional Experience</h1>
-    <h2 style="color: gray;">WEB DESIGN</h2>
-    <b>2018-2019</b>
-    <p>Somewhere in Vilnius</p>
-    <li>Developed website</li>
-    <li>Created diffrent design styles</li>
+    <div class="row">
+        <div class="column">
+            <h2>Sumary</h2>
+            <h3>Lukas Vaiginis</h3>
+            <p>Computer engineer with experience in modeling, programming and designing.</p>
+            <li>Some address</li>
+            <li>(123) 456-7891</li>
+            <li>email@example.com</li>
+            <div>
+                <h2>Education</h2>
+                <h3>Bachelor of Computer engineering</h3>
+                <b>2023-2027</b>
+                <p>Vilnius tech</p>
+                <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+            </div>
+        </div>
+        <div class="column">
+            <h2>Professional Experience</h2>
+            <h3>WEB DESIGN</h3>
+            <b>2018-2019</b>
+            <p>Somewhere in Vilnius</p>
+            <li>Developed website</li>
+            <li>Created diffrent design styles</li>
+        </div>
+    </div>
+    <button>Light/Dark mode</button>
     <h1>Portfolio</h1>
     <p>"He who laughs at himself never runs out of things to laugh at."-Marcus Aurelius</p>
-    <img src="Pictures/blank-hardcover-book-mockup.jpg" width="300" height="300">
-    <img src="Pictures/614r6gJOBeL._AC_UF894,1000_QL80_.jpg" width="300" height="300">
-    <img src="Pictures/flat,750x,075,f-pad,750x1000,f8f8f8.jpg" width="300" height="300">
-    <img src="https://m.media-amazon.com/images/I/91745c3+LFL.jpg" width="300" height="300">
-    <h1>Portfolio</h1>
+    <section id="gallery">
+        <img src="Pictures/blank-hardcover-book-mockup.jpg">
+        <img src="Pictures/614r6gJOBeL._AC_UF894,1000_QL80_.jpg">
+        <img src="Pictures/flat,750x,075,f-pad,750x1000,f8f8f8.jpg">
+        <img src="https://m.media-amazon.com/images/I/91745c3+LFL.jpg">
+    </section>
+    <h1>Services</h1>
     <p>"He who laughs at himself never runs out of things to laugh at."-Marcus Aurelius</p>
-    <video src="vecteezy_looping-matrix-style-cyrillic-alphabet-code-rain-effect_6102172.mov" width="500" height="500"></video>
-    <iframe src="https://www.youtube.com/watch?v=EnTZTRFHmUo" width="500" height="500"></iframe>
+    <video src="vecteezy_looping-matrix-style-cyrillic-alphabet-code-rain-effect_6102172.mov"></video>
+    <iframe src="https://www.youtube.com/watch?v=EnTZTRFHmUo"></iframe>
     <audio src="https://www.atomicarchive.com/media/videos/media/oppenheimer-quote.mp3"></audio>
 </body>
 </html>

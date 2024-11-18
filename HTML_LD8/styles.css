@@ -1,0 +1,35 @@
+h1{
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300px;
+}
+h2{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200px;
+}
+h3{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200px;
+    color: gray;
+}
+p{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100px;
+}
+#gallery > img{
+    width: 300px;
+    height: 300px;
+}
+img, video, iframe, audio{
+    width: 500px;
+    height: 500px;
+}
+.row {
+    display: flex;
+  }
+.column {
+    flex: 50%;
+}
